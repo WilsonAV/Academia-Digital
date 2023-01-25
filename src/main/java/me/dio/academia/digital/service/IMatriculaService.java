@@ -32,4 +32,5 @@ public interface IMatriculaService {
    */
   void delete(Long id);
 
+    List<Matricula> getAllAlunosByBairro(String bairro);
 }
